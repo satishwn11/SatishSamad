@@ -110,6 +110,13 @@ body {
     color: #111827;
 }
 
+.skills li,
+.project {
+    -webkit-user-select: none; /* Chrome, Android */
+    -ms-user-select: none;     /* Edge */
+    user-select: none;         /* Standard */
+}
+
 /* =====================
    FOOTER
 ===================== */
