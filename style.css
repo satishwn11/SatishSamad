@@ -110,11 +110,15 @@ body {
     color: #111827;
 }
 
+/* Disable text selection completely for interactive cards */
 .skills li,
-.project {
-    -webkit-user-select: none; /* Chrome, Android */
-    -ms-user-select: none;     /* Edge */
-    user-select: none;         /* Standard */
+.skills li *,
+.project,
+.project * {
+    -webkit-user-select: none;      /* Chrome / Android */
+    -webkit-touch-callout: none;    /* Disable long-press menu */
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /* =====================
