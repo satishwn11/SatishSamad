@@ -28,6 +28,18 @@ body {
     word-break: break-word;    /* 🔥 mobile safety */
 }
 
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+
+    transform: scale(1.25);   /* 🔥 ZOOM IN */
+}
+
+
 .card:hover {
     transform: translateY(-2px);
     box-shadow: 0 14px 30px rgba(0,0,0,0.12);
