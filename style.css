@@ -187,3 +187,31 @@ footer {
         font-size: 18px;
     }
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.screens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.screens img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+    transition: transform 0.3s ease;
+}
+
+.screens img:hover {
+    transform: scale(1.05);
+}
+
