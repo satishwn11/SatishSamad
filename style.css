@@ -169,6 +169,22 @@ a {
     box-shadow: 0 12px 28px rgba(0,0,0,0.18);
 }
 
+.privacy-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #2e7d32;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.privacy-btn:hover {
+    background-color: #1b5e20;
+}
+
+
 /* =====================
    FOOTER
 ===================== */
